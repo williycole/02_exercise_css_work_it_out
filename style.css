@@ -1,0 +1,120 @@
+/*==========Mobile View==========*/
+* {
+    font-family: Helvetica;
+}
+
+body {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    border-bottom: violet solid 2px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 10px;
+}
+
+h2 {
+    display: inline-block;
+}
+
+h2:before {
+    display: inline-block;
+    content: "";
+    border-top: violet solid 2px;
+    width: 4rem;
+    margin: 10px 1rem 10px 1rem;
+}
+
+h4 {
+    border-bottom: gray solid 2px;
+    width: max-content;
+}
+
+h2:after {
+    display: inline-block;
+    content: "";
+    border-top: violet solid 2px;
+    width: 4rem;
+    margin: 10px 1rem 10px 1rem;
+}
+
+ol, ul, {
+    display: block;
+    text-align: left;
+    padding: 15px;
+    margin: 0;
+}
+
+ol {
+    padding: 20px 15px 15px 20px;
+}
+
+img {
+    height: 150px;
+    border: violet solid 2px;
+    padding: 2px;
+}
+
+.description {
+    font-size:20px;
+    border: violet solid 2px;
+    padding: 10px;
+}
+
+p.description {
+   background: rgba(238, 130, 238, 0.411);
+   font-style: italic;
+}
+#workout-time {
+    font-weight: bold;
+}
+
+.equipment li {
+    list-style:square;
+    background: violet;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+
+ul.equipment{
+    border: violet solid 2px;
+    padding: 2px;
+}
+
+p.time {
+    color: gray;
+    border-top: violet solid 2px;
+    border-bottom: violet solid 2px;
+}
+
+a {
+    color:SeaGreen;```
+}
+
+.citation {
+    color: violet;
+}
+
+
+/*==========Desktop View==========*/
+@media (min-width:1000px){
+    body {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        margin:  0 25% 0 25%;
+        border: violet solid 2px;
+        padding: 100px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+}
