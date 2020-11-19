@@ -44,7 +44,7 @@ h2:after {
     margin: 10px 1rem 10px 1rem;
 }
 
-ol, ul, {
+ol, ul{
     display: block;
     text-align: left;
     padding: 15px;
